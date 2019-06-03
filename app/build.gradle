@@ -31,6 +31,8 @@ repositories {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
 
     /* support library */
     def supportVersion = "1.0.2"
@@ -83,6 +85,5 @@ dependencies {
     /* Unit Test*/
     testImplementation 'junit:junit:4.12'
     testImplementation 'org.mockito:mockito-inline:2.13.0'
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     testImplementation "androidx.arch.core:core-testing:2.1.0-beta01"
 }
