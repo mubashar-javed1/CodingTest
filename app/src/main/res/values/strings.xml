@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Coding Test</string>
+    <string name="show_result">Show Result</string>
+    <string name="no_result_found">No Result Found</string>
+    <string name="enter_valid_abbrev">Enter Valid Abbreviation</string>
+    <string name="network_error">No Network Connection</string>
+    <string name="lf">lf:</string>
+    <string name="freq">freq</string>
+    <string name="since">Since:</string>
+    <string name="incorrect_abbre">Incorrect Abbreviation</string>
+</resources>
